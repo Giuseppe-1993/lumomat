@@ -279,7 +279,9 @@ else
   
   
   % No events recorded
-  s = [];
+  % The Homer2's user guide requires the 's' field to match the size of the
+  % time vector
+  s = zeros(size(t, 1), 1);
   CondNames = {};
   
 end
