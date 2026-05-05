@@ -24,7 +24,7 @@ function [enum, data, events] = read_lufr(lufrfn, varargin)
 %                       struct: a layout structure in the format returned by
 %                               lumofile.read_layout (see function help for details)
 %
-%   'optfilter': When loading the data, keep only those channels which are recorded on 
+%   'chfilter': When loading the data, keep only those channels which are recorded on 
 %                optode pairs provided in the specified matrix. The matrix should have rows 
 %                of the form:
 %
